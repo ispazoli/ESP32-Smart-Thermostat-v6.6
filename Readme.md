@@ -191,6 +191,14 @@ Nyisd meg a termosztát IP címét (vagy a http://esp32thermostat.local címet) 
 
 \<a id="english-version"\>\</a\>
 
+# **ESP32 Smart Thermostat Pro (v6.6+)**
+
+This is an advanced networked smart thermostat firmware running on an ESP32 microcontroller. It controls a separate Tasmota-based (ESP8266/ESP32) relay and sensor unit via HTTP.
+
+The project aims to provide a proactive smart thermostat that rivals the capabilities of commercially available smart thermostats. The system not only learns the heat loss of the house, but also uses the expected weather forecast (/forecast API [cite: sensors_relay.cpp (v6.6 - Full, Improved):sensors_relay.cpp]) to start the heating more intelligently.
+
+All this runs on a local network, but is also capable of integrating cloud services (Google Calendar, Google Sheets).
+
 # **English Version (EN)**
 
 ## **📸 Gallery / In Action**
