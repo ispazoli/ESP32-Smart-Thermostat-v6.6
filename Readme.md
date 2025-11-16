@@ -1,5 +1,4 @@
-[Magyar (HU)] | [English (EN)]<a id="english-version"\>\</a\>
-
+[Magyar (HU)](#real-cool-heading) | [English (EN)]
 # **ESP32 Smart Thermostat Pro (v6.6+)**
 
 Ez egy fejlett, hálózatra kapcsolt okostermosztát firmware, amely egy ESP32-es mikrokontrolleren fut. Egy különálló, Tasmota-alapú (ESP8266/ESP32) relé- és szenzoregységet vezérel HTTP-n keresztül.
@@ -188,8 +187,6 @@ Nyisd meg a termosztát IP címét (vagy a http://esp32thermostat.local címet) 
 * **Okos Tanulás Diagnosztika:**  
   * Kazán Felfűtési Sebesség: A tanult érték, °C/óra.  
   * Épület Hatékonysága: A tanult hővesztési együttható (minél alacsonyabb, annál jobb).
-
-\<a id="english-version"\>\</a\>
 
 
 # **ESP32 Smart Thermostat Pro (v6.6+)**
