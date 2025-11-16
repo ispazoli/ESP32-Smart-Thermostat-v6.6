@@ -27,7 +27,7 @@ A webes felület három beépített témát tartalmaz \[cite: style.css\], valam
 
 | Időjárás (v6.6 Prognózis) | Rendszer (Okos Funkciók) | Diagnosztika (Mérőórák) |
 | :---- | :---- | :---- |
-| **![][image4]** | **![][image5]** | **![][image6]** |
+| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/c485d626-f3fc-4c78-881d-3354536dea4f" />| <img width="1167" height="992" alt="System" src="https://github.com/user-attachments/assets/c0dab4b2-a2f9-48ab-9d8b-72679ccc0bb8" />| <img width="1038" height="952" alt="Diag" src="https://github.com/user-attachments/assets/049eaa05-3b79-4578-98af-aa49b9fedc71" />|
 
 ## **🌟 Főbb Funkciók (v6.6)**
 
@@ -202,13 +202,13 @@ The web interface features three built-in themes \[cite: style.css\] and provide
 
 | Apple Theme (Default) | Siemens Theme | Nest Theme |
 | :---- | :---- | :---- |
-| **![][image7]** | **![][image8]** | **![][image9]** |
+| <img width="1020" height="780" alt="teermostat1" src="https://github.com/user-attachments/assets/7f1f078a-62ed-4ca4-90d9-962ce9668278" />| <img width="1022" height="800" alt="teermostat2" src="https://github.com/user-attachments/assets/095cf6bc-7082-4019-891c-4596e2c7d5fc" />| <img width="1022" height="766" alt="teermostat3" src="https://github.com/user-attachments/assets/e3b39ee0-c4c1-4749-9593-c8a0baef5c54" />|
 
 ### **Functional Screens**
 
 | Weather (v6.6 Forecast) | System (Smart Features) | Diagnostics (Gauges) |
 | :---- | :---- | :---- |
-| **![][image10]** | **![][image11]** | **![][image12]** |
+| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/cb833be8-d702-451c-8073-8811f34e2bfe" />| <img width="1167" height="992" alt="System" src="https://github.com/user-attachments/assets/f19ec2ac-8aa9-45f5-b543-f47e88395e6d" />| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/86111c70-8d16-4b0e-89be-57b25e43c1a5" />|
 
 ## **🌟 Core Features (v6.6)**
 
