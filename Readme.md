@@ -4,7 +4,7 @@
         * [Funkcionális Képernyők](#funkcionális-képernyők)
     * [Főbb Funkciók (v6.6)](#főbb-funkciók-v66)
     * [Működés (Soros Monitor)](#működés-soros-monitor)
-    * [Hardverkövetelmények](#hardverkövetelmények)
+    * [🛠️Hardverkövetelmények](#🛠️-hardverkövetelmények)
     * [Szoftveres Beüzemelés](#szoftveres-beüzemelés)
         * [1. Lépés: Tasmota Relé/Szenzor Egység](#1-lépés-tasmota-relészenzor-egység)
         * [2. Lépés: Google Script (Kombinált)](#2-lépés-google-script-kombinált)
