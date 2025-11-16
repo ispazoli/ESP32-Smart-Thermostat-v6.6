@@ -1,4 +1,4 @@
-[Magyar (HU)] | [English (EN)]
+[Magyar (HU)] | [English (EN)]<a id="english-version"\>\</a\>
 
 # **ESP32 Smart Thermostat Pro (v6.6+)**
 
@@ -191,6 +191,7 @@ Nyisd meg a termosztát IP címét (vagy a http://esp32thermostat.local címet) 
 
 \<a id="english-version"\>\</a\>
 
+
 # **ESP32 Smart Thermostat Pro (v6.6+)**
 
 This is an advanced networked smart thermostat firmware running on an ESP32 microcontroller. It controls a separate Tasmota-based (ESP8266/ESP32) relay and sensor unit via HTTP.
@@ -209,7 +210,7 @@ The web interface features three built-in themes \[cite: style.css\] and provide
 
 | Apple Theme (Default) | Siemens Theme | Nest Theme |
 | :---- | :---- | :---- |
-| <img width="1020" height="780" alt="teermostat1" src="https://github.com/user-attachments/assets/7f1f078a-62ed-4ca4-90d9-962ce9668278" />| <img width="1022" height="800" alt="teermostat2" src="https://github.com/user-attachments/assets/095cf6bc-7082-4019-891c-4596e2c7d5fc" />| <img width="1022" height="766" alt="teermostat3" src="https://github.com/user-attachments/assets/e3b39ee0-c4c1-4749-9593-c8a0baef5c54" />|
+|<img width="1020" height="780" alt="teermostat1" src="https://github.com/user-attachments/assets/7f1f078a-62ed-4ca4-90d9-962ce9668278" />|<img width="1022" height="800" alt="teermostat2" src="https://github.com/user-attachments/assets/095cf6bc-7082-4019-891c-4596e2c7d5fc" />|<img width="1022" height="766" alt="teermostat3" src="https://github.com/user-attachments/assets/e3b39ee0-c4c1-4749-9593-c8a0baef5c54" />|
 
 ### **Functional Screens**
 
