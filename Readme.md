@@ -189,7 +189,7 @@ Nyisd meg a termosztát IP címét (vagy a http://esp32thermostat.local címet) 
   * Épület Hatékonysága: A tanult hővesztési együttható (minél alacsonyabb, annál jobb).
 
 
-# **ESP32 Smart Thermostat Pro (v6.6+)**(#**ESP32-Smart-Thermostat-Pro-(v6.6+)**)
+#[**ESP32 Smart Thermostat Pro (v6.6+)**](#**ESP32-Smart-Thermostat-Pro-(v6.6+)**)
 
 This is an advanced networked smart thermostat firmware running on an ESP32 microcontroller. It controls a separate Tasmota-based (ESP8266/ESP32) relay and sensor unit via HTTP.
 
