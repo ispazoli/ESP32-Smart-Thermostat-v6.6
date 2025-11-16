@@ -26,9 +26,7 @@ A webes felület három beépített témát tartalmaz \[cite: style.css\], valam
 
 | Időjárás (v6.6 Prognózis) | Rendszer (Okos Funkciók) | Diagnosztika (Mérőórák) |
 | :---- | :---- | :---- |
-| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/8caa933f-e502-4a26-9e39-a0352f83b6ed" />
-| <img width="1167" height="992" alt="System" src="https://github.com/user-attachments/assets/9039bc4a-a163-4ad7-bf5a-8cda5371f12a" />
-| <img width="1038" height="952" alt="Diag" src="https://github.com/user-attachments/assets/4f553ec2-a08a-4474-8945-93578b8ac31c" />|
+|<img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/8caa933f-e502-4a26-9e39-a0352f83b6ed" />|<img width="1167" height="992" alt="System" src="https://github.com/user-attachments/assets/9039bc4a-a163-4ad7-bf5a-8cda5371f12a" />|<img width="1038" height="952" alt="Diag" src="https://github.com/user-attachments/assets/4f553ec2-a08a-4474-8945-93578b8ac31c" />|
 
 ## **🌟 Főbb Funkciók (v6.6)**
 
