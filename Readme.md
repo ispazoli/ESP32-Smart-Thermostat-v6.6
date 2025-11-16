@@ -50,7 +50,7 @@ A rendszer lelke egy ESP32, amely egy központi "agyként" funkcionál. Minden v
 A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rendszer működését. A termosztát 10 másodpercenként lekéri a Tasmota hőfokát, és közben futtatja a többi okos funkciót.
 
 // A Tasmota egység folyamatos lekérdezése  
-13:23:37.602 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208  
+13:23:37.602 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
 13:23:47.574 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
 
 // A "Smart Learning" folyamatosan tanulja a ház hűlési sebességét  
@@ -59,7 +59,7 @@ A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rends
 
 // 15 percenként elmenti az adatot a Google Sheets-be  
 13:24:01.623 \-\> 📝 \[LOG\] Saving 15-minute log...  
-13:24:01.623 \-\> 📤 \[GSheet\] Sending data to URL: \[https://script.google.com/macros/s/xxxx\](https://script.google.com/macros/s/xxxx)...  
+13:24:01.623 \-\> 📤 \[GSheet\] Sending data to URL: \[https://script.google.com/macros/s/xxxx\](https://script.google.com/macros/....)
 13:24:07.703 \-\> 📬 \[GSheet\] HTTP Code: 200  
 13:24:07.703 \-\> 📬 \[GSheet\] Response: OK: Data logged successfully.
 
@@ -71,7 +71,7 @@ A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rends
 // ... (később, a v6.6-os kód futtatása)
 
 // A 10 percenkénti időjárás-lekérdezés már a "/forecast" API-t használja  
-16:51:02.004 \-\> 🌦️ \[WEATHER\] GET (Forecast) \[https://api.openweathermap.org/data/2.5/forecast?q=\](https://api.openweathermap.org/data/2.5/forecast?q=)...  
+16:51:02.004 \-\> 🌦️ \[WEATHER\] GET (Forecast) \[https://api.openweathermap.org/data/2.5/forecast?q=\](https://api.openweathermap.org/data/2.5/forecast?q=)...
 // Sikerült a 3 órás előrejelzés lekérése\!  
 16:51:02.417 \-\> 🌦️✅ Now: 12.2°C (Feels: 11.2°C), 3h Fcast: 10.9°C, Precip: 0%  
 16:51:02.464 \-\> 🌦️✅ overcast clouds (04n)  
@@ -240,7 +240,7 @@ The provided serial log.txt \[cite: serial log.txt\] perfectly demonstrates the 
 
 // Every 15 minutes, it logs data to Google Sheets  
 13:24:01.623 \-\> 📝 \[LOG\] Saving 15-minute log...  
-13:24:01.623 \-\> 📤 \[GSheet\] Sending data to URL: \[https://script.google.com/macros/s/xxxx\](https://script.google.com/macros/s/xxxx)...  
+13:24:01.623 \-\> 📤 \[GSheet\] Sending data to URL: \[https://script.google.com/macros/s/xxxx\](https://script.google.com/macros/....
 13:24:07.703 \-\> 📬 \[GSheet\] HTTP Code: 200  
 13:24:07.703 \-\> 📬 \[GSheet\] Response: OK: Data logged successfully.
 
@@ -252,7 +252,7 @@ The provided serial log.txt \[cite: serial log.txt\] perfectly demonstrates the 
 // ... (later, running v6.6 code)
 
 // The 10-minute weather fetch now uses the "/forecast" API  
-16:51:02.004 \-\> 🌦️ \[WEATHER\] GET (Forecast) \[https://api.openweathermap.org/data/2.5/forecast?q=\](https://api.openweathermap.org/data/2.5/forecast?q=)...  
+16:51:02.004 \-\> 🌦️ \[WEATHER\] GET (Forecast) \[https://api.openweathermap.org/data/2.5/forecast?q=\](https://api.openweathermap.org/data/2.5/forecast?q=)...
 // Success\! 3-hour forecast data was received\!  
 16:51:02.417 \-\> 🌦️✅ Now: 12.2°C (Feels: 11.2°C), 3h Fcast: 10.9°C, Precip: 0%  
 16:51:02.464 \-\> 🌦️✅ overcast clouds (04n)  
