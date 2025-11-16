@@ -8,7 +8,6 @@ A projekt célja egy kereskedelmi forgalomban kapható okostermosztátok tudás�
 
 Mindezt helyi hálózaton futtatva, de képes felhő-szolgáltatások (Google Naptár, Google Sheets) integrálására is.
 
-\<a id="magyar-verzió"\>\</a\>
 
 # **Magyar Verzió (HU)**
 
@@ -20,13 +19,14 @@ A webes felület három beépített témát tartalmaz \[cite: style.css\], valam
 
 | Apple Téma (Alapértelmezett) | Siemens Téma | Nest Téma |
 | :---- | :---- | :---- |
-| **![][image1]** | **![][image2]** | **![][image3]** |
+|<img width="1020" height="780" alt="teermostat1" src="https://github.com/user-attachments/assets/83ac3d53-a36e-40f8-843a-cc3353d85327" />| <img width="1022" height="800" alt="teermostat2" src="https://github.com/user-attachments/assets/344eb88e-f96f-4da7-8711-5b9a7ec783ab" />| <img width="1022" height="766" alt="teermostat3" src="https://github.com/user-attachments/assets/3e576277-c5b4-4e6c-b3c4-8b67352d86d8" />
+ |
 
 ### **Funkcionális Képernyők**
 
 | Időjárás (v6.6 Prognózis) | Rendszer (Okos Funkciók) | Diagnosztika (Mérőórák) |
 | :---- | :---- | :---- |
-| **![][image4]** | **![][image5]** | **![][image6]** |
+| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/c485d626-f3fc-4c78-881d-3354536dea4f" />| <img width="1167" height="992" alt="System" src="https://github.com/user-attachments/assets/c0dab4b2-a2f9-48ab-9d8b-72679ccc0bb8" />| <img width="1038" height="952" alt="Diag" src="https://github.com/user-attachments/assets/049eaa05-3b79-4578-98af-aa49b9fedc71" />|
 
 ## **🌟 Főbb Funkciók (v6.6)**
 
@@ -49,7 +49,7 @@ A rendszer lelke egy ESP32, amely egy központi "agyként" funkcionál. Minden v
 A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rendszer működését. A termosztát 10 másodpercenként lekéri a Tasmota hőfokát, és közben futtatja a többi okos funkciót.
 
 // A Tasmota egység folyamatos lekérdezése  
-13:23:37.602 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208  
+13:23:37.602 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
 13:23:47.574 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
 
 // A "Smart Learning" folyamatosan tanulja a ház hűlési sebességét  
@@ -58,7 +58,7 @@ A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rends
 
 // 15 percenként elmenti az adatot a Google Sheets-be  
 13:24:01.623 \-\> 📝 \[LOG\] Saving 15-minute log...  
-13:24:01.623 \-\> 📤 \[GSheet\] Sending data to URL: \[https://script.google.com/macros/s/xxxx\](https://script.google.com/macros/s/xxxx)...  
+13:24:01.623 \-\> 📤 \[GSheet\] Sending data to URL: \[https://script.google.com/macros/s/xxxx\](https://script.google.com/macros/....)
 13:24:07.703 \-\> 📬 \[GSheet\] HTTP Code: 200  
 13:24:07.703 \-\> 📬 \[GSheet\] Response: OK: Data logged successfully.
 
@@ -70,7 +70,7 @@ A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rends
 // ... (később, a v6.6-os kód futtatása)
 
 // A 10 percenkénti időjárás-lekérdezés már a "/forecast" API-t használja  
-16:51:02.004 \-\> 🌦️ \[WEATHER\] GET (Forecast) \[https://api.openweathermap.org/data/2.5/forecast?q=\](https://api.openweathermap.org/data/2.5/forecast?q=)...  
+16:51:02.004 \-\> 🌦️ \[WEATHER\] GET (Forecast) \[https://api.openweathermap.org/data/2.5/forecast?q=\](https://api.openweathermap.org/data/2.5/forecast?q=)...
 // Sikerült a 3 órás előrejelzés lekérése\!  
 16:51:02.417 \-\> 🌦️✅ Now: 12.2°C (Feels: 11.2°C), 3h Fcast: 10.9°C, Precip: 0%  
 16:51:02.464 \-\> 🌦️✅ overcast clouds (04n)  
@@ -201,13 +201,13 @@ The web interface features three built-in themes \[cite: style.css\] and provide
 
 | Apple Theme (Default) | Siemens Theme | Nest Theme |
 | :---- | :---- | :---- |
-| **![][image7]** | **![][image8]** | **![][image9]** |
+| <img width="1020" height="780" alt="teermostat1" src="https://github.com/user-attachments/assets/7f1f078a-62ed-4ca4-90d9-962ce9668278" />| <img width="1022" height="800" alt="teermostat2" src="https://github.com/user-attachments/assets/095cf6bc-7082-4019-891c-4596e2c7d5fc" />| <img width="1022" height="766" alt="teermostat3" src="https://github.com/user-attachments/assets/e3b39ee0-c4c1-4749-9593-c8a0baef5c54" />|
 
 ### **Functional Screens**
 
 | Weather (v6.6 Forecast) | System (Smart Features) | Diagnostics (Gauges) |
 | :---- | :---- | :---- |
-| **![][image10]** | **![][image11]** | **![][image12]** |
+| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/cb833be8-d702-451c-8073-8811f34e2bfe" />| <img width="1167" height="992" alt="System" src="https://github.com/user-attachments/assets/f19ec2ac-8aa9-45f5-b543-f47e88395e6d" />| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/86111c70-8d16-4b0e-89be-57b25e43c1a5" />|
 
 ## **🌟 Core Features (v6.6)**
 
@@ -239,7 +239,7 @@ The provided serial log.txt \[cite: serial log.txt\] perfectly demonstrates the 
 
 // Every 15 minutes, it logs data to Google Sheets  
 13:24:01.623 \-\> 📝 \[LOG\] Saving 15-minute log...  
-13:24:01.623 \-\> 📤 \[GSheet\] Sending data to URL: \[https://script.google.com/macros/s/xxxx\](https://script.google.com/macros/s/xxxx)...  
+13:24:01.623 \-\> 📤 \[GSheet\] Sending data to URL: \[https://script.google.com/macros/s/xxxx\](https://script.google.com/macros/....
 13:24:07.703 \-\> 📬 \[GSheet\] HTTP Code: 200  
 13:24:07.703 \-\> 📬 \[GSheet\] Response: OK: Data logged successfully.
 
@@ -251,7 +251,7 @@ The provided serial log.txt \[cite: serial log.txt\] perfectly demonstrates the 
 // ... (later, running v6.6 code)
 
 // The 10-minute weather fetch now uses the "/forecast" API  
-16:51:02.004 \-\> 🌦️ \[WEATHER\] GET (Forecast) \[https://api.openweathermap.org/data/2.5/forecast?q=\](https://api.openweathermap.org/data/2.5/forecast?q=)...  
+16:51:02.004 \-\> 🌦️ \[WEATHER\] GET (Forecast) \[https://api.openweathermap.org/data/2.5/forecast?q=\](https://api.openweathermap.org/data/2.5/forecast?q=)...
 // Success\! 3-hour forecast data was received\!  
 16:51:02.417 \-\> 🌦️✅ Now: 12.2°C (Feels: 11.2°C), 3h Fcast: 10.9°C, Precip: 0%  
 16:51:02.464 \-\> 🌦️✅ overcast clouds (04n)  
@@ -372,6 +372,8 @@ Ez a projekt az MIT Licenc alatt van közzétéve. / This project is licensed un
 
 * Köszönet a projekt eredeti ötletgazdájának, **Ispa**\-nak.  
 * A firmware-t és a dokumentációt az **Ispa** és a **Google AI** (Gemini) közösen fejlesztette.
+* Thanks to the original creator of the project, Ispa.
+* The firmware and documentation were developed jointly by Ispa and Google AI (Gemini).
 
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAACNCAIAAACL5ieOAAANUUlEQVR4Xu2dbVBc1RnHdzIdp/VLv/RLOwM0o0GQQfMCIUYNEl/SODGIxRpj0w/q2CZiTEwIQgImCGE0JCEUwURxIomNdcYKmNhAa23UtDFaiDEv5BUSCG/L+ztcyPS/e8jxss/u3UNYkru7D/ObO+c85zn3nHPvj7u7dxfWog2PMIxbLDTEMBQWhbGRkrI+OvoBBxCUCSyK33HffffPnDmLxgVLlixZsOA3NP6jKAEBQStfXo2tKMsgyMt7i/ZkzEBoSHDvVw8/eN8dovrV14fnzXsAW5T37v0AZaDPT0p6tfFQbN/pJ5OTU+jenloc2fvfx1sKHyzOne/QNEaUg2XlUpTKyu9RiJpzD7ZCILGV6gCR09HZJXJkmblh9NfFgcyX7hZVocipU1Vy6wCuJQNXngFOLyqwROLQNEYUaCFEgTEiKESBE8IPVIUuQhTRS2zRRe+ZwzDMJIHLCUSZNi1YVIUoTc1WzYUou98vGqhbClGK9uylrWDevGg3ojB+wuzZUfRyYm1pFYUdO3JlqwxqLAqjCIvCKGG5dLmWYdxiGdJGTM7g0PB4oTthJoipRRkc1C5WX7pu6A6Z68aiacOmhZ77cQHP6D6Z6wOijJgWcb73frAvICDo+ef/SFUwpn9gUL83290dMoQB7xftHW8XgejV2dVNm7wXLxAFCFEiIiJjY59AOSbmQWxjY+MyMzfffnvwhYs1y5cnIILq/fMeQMGpKAODQ/HxT6as37A2MQk5pZ8eCAqaunDhogULHqVDa/bzfbm2TujS0NiMXs8993x1zaW4uHjsOcB+B5L2kn2xRReMMn36zODgEETCwsJnzowIDQ0T+6moqHz22edeWbOWdjch3iQKCvfMvRdmnDx5GpFp0+5YtChWiPLoo4tRveuu6eL8UVEqK4/Zz3cTynFxvw2w3VzODw2982BZGZps7zyQ0Vta27CNiXkIyUh44YU/1dZdOX78BIJt7R3Tp89wJUpkZNTQEC7XI+iCUcLD74YoGGXq1Nvmz38Y9oj9fLr/AERBDt2DCTG1KNXVlyYCLiEOO4yImE1HmVQOfPb3RYsW07jXYeobbjjT9PSrQ3fIXDemFgUMacN4BBkvtmsJ2RUzESztXQMM4xZLR1cvw7iFRWGUcCJKe2cP4+dQK34URSa1dXQz/oxTY2yi6P2w3WUiz3gZvwKvGC9drtVLYxNFWtLQ0Ez7MP5Ma3uXcGVUFFQQonkMI12xCEsaGm2f22YYB1raOqHHqCjW1g48JtEkhmluaYcrkMQCX1gUxhVN1jboYRMFvsAaFoVxSmNzK0TB1cQmCqxhURinQBRcR5yLYvs8jos/C3UalISFhefl5S9fvoI20Y78V8peQWNTi5EoApT/8c9/Bdj/PB0F0SRz5t57vyhERc2RQVloaGzq7ulFISHhpaZmq5Svs6s7O3tbgP0zY3JExrS4EUVuX01OKbJ/aBTnWwZF4WBZOU52gP2joDK478OPcEUJsH0Ysabf/sHSK/UNlZXfi47iPx7k5uaxKN6CkSjj5amnltIg4xt4UhTGh2FRGCXciIKnFyMjVxk/ZByi1NbW0f6M/6AqCu3J+BWduhekLApjBIvCKMGiMEqwKIwSLAqjhN+JUlxSYtH9iCCN6HHVOjw8IoID124y6TOzsrLorrwXfxRFFB55ZIHDiR+5dqb1kePHf0Ckq6vbIROUlZdbrS09Pb0FBQWy7w8/nBCtb7/9Nu3ivfidKJKEhJdURKERV63Gmd6On4qyfft2nNQpU6bog07PtAjKH7orwdGj36K1oqKSNvkG/ihKSEgIPes0QuMoFO3ZQ3PAiRMn0Soeg3wSvxPl34cOUSFcWeLQZCCKQ6bv4XeiiNMpfxB5+umlNCgL7xcVoRARGSkjrpDdxQ+/6vFuHE4nIoGBgTQoC2Dfhx/qqwbIF8z4Gfat4+Z3ojDXB4vCKMGiXO3vH7BaW2R17ty5+tbY2FiHfIPHlN27d9Ogb8CiXH3ssceWLFmCQkZGpj4+a9asEWeijFwTQiQI0tJeo2m+BIsyBlxaYmJi9NcMKQouPDS/r69fXy0sLKQ5vgGLwijBojBKsCiMEiyKI7W1V1pa2oqK/rJxYwaqJSUHzp47n7Mjr+rM2cLCIkSSkjZs3JiZnJyWmJhCu/sqLMqPpKW9Xl/f2N7eCVFkUIiydVsuRMneugNN6embEe/p6UOc7sRXYVEYJVgU2183HT367bzoaFGVb+bJz8KBZcv+cOuttwYGBqKA6uLFsUhDL7o3X4VFsVFXd0WWXb3rCy3gimiFKBaLhUXxO1EYt7AojBIsCqMEi8IowaIwSrAojHsGdd/xaiSK/tUj44dIE9yIovF/5/Jj9Bq4F4VhBCwKowSLwihhJIrtKe/Vq2YGM9QvhiaYi7EP/LanAjTHPKg/mXXsaUrwCs6LZiuPvmPcrLgXxfyXE4nXzdanRMFvKu1mTrxutizKzcFTs01OTqFBj8OiGBGROrq3hW96crcCj8w2MXFdXcLPZFVMWG7r221bTF4u5LrxoCg//8Uvm61WWX3lg2FMD4gCzb8ObqgoOMrY/rls5LNjo4fbs7p4ZLZfL/spRNG7ggljizmPXHMFhc4+x47jxYOi3HLLLavfm7Fu1wxRhR/6VjH/CXJDRZlsPDLbqF9NGbImxN/xE9rkWTwoCti4LzIm7bYZM0Zd8Tgsyk3Ds6JMNizKTcPXRPGWOxP9A4NeNNsR3xMF2P4NBOlpNuRdfNu32pFWsyFnOzA4RFvNxoDiB5c0+28qkk2LfqpeN1vN/ohpWhym6kYUhhGwKIwSLAqjBIvCKMGiMEqoilJZ+b2+mpf3Fs0xICAgSBSCg0NoqwGyI3NzMRIlI2OzZnMiPycnt6Li2CfFpe+++15xSSniECVqzj1X6htEpjydF6trwsPvRjUyMkokg+6eXkRA6acHIEpTs/Xxx3+LqrypkLJ+A7ZFRXtFmuhy+vSZy7V1IrI2cR2qKAQFTUWvrKw3RL5+JcykYiSKZjdgxYoXNfsVBeXo6Pkoh4WF49RClKqqs6LJoQtOYWDgr2WyCApdEAcxMQ+JILaIy47Y4YbUNNlFbE+dqhImoYxBRRyEht6pH5eZVNyIMl7i439Hg67Izt6mTeDBxeGT1cyk4mFRGF+FRWGUYFEYJVgURgmvFKWjq1cd5F+4eInGHbhc10gHMjN0CQb09g4odqEDCbxPFMyTLs+AM+cu0qBT6Fhmhs7fU9CxNG8UhS6Mkl+wU5ZPnj5LE5yCnR8sK9fsr9g7Orvo0KaCzp+iPw7qaLqbWHI4N6KkpLw2pA2/8857mZlburp7V69e9/LLa498893hw0dWrlzz5ZeHEUQEZGS8UXXmHJJzcwuara2pqZuysrIRpCucIPolzZ49Z8WLK1GIeyK+pHS/CC595vf6HCnKtu07RMHmATk6HS5+k/LyduIgbErfnJb2Ola3alVicfH++vqmDRs2pb+e1dnVvXNnIdJwZFJT01H9+G8lOD7IQS9skYNeIsezOEz+3IUauUBj/nPkKA4ajhi60NYOF8fBSBQclCPffDswOHTo0Nfr1q1HJClpgxAFEZEDUbZsydm1qxBO1NSM9hWiJCamZGfvoENOEP2SsGABFv/Qw4/omwIDR20QogiN6hubhVhOGTOK7oqCI1Be/vmaNa+ikJ+/C6f/7LmLnxSXYu1nzp4vKHgHOVgvQFWKgjK2yOnt69+6NZcuZIKIOWNd0g+cexwHuRx5BByYNi0ExwG/Y67EEvt3uBFqJIo5oQszZlwPPV4Enb+noGNp3ihKQ6OVrs0ATfmY0rHMDJ2/AXjdd17hpR9AGh1L80ZRmJsCi8IowaIwSrAojBJeKYr6Cxk885VdjKGjmBz1J/X1jS2iS83lOrpwPdaWNjqQwPtEOalsiWBgUKNBp9CxzAydvwE4uSpveIHqS3V0LM0bRaFrM0ZdLDqWmaHz9xR0LM2tKMXF+2mfI998R4M3DLmektL94ia0uN8qb+HnF+w8fuKUxWIR1XGJIt7r0bNqVeKm9M3l5Z/LiNNjcuMRc5a34XEQXN1p1YOjJI6VuKNNEzp07/XoMRLliy++zMx8E1o0W1tra+t7+/qrzpxDVbzX893/jml2adC6cVPmli05KIi72uIGtriRT1c4QcRi9DfsxdscctmwpIPcwleBjqXZ36OoqDyempp+/ny1WGxOzlv6xYq0v370cUtrG+LiQCGCMvJ37Sqk+/QIdP5xT8TToANQRFiCI+Yqf3T/Y98WNRLFmN2799CgnpIS23siND5B6MKMmaAoEwfG0ODEofP3FHQsbSKi3CzUP18i4CezHfYns3iWSuOUC750Cx/nnr60cwrt60vQ9ToFr4pp3/HilaIwNx4WhVGCRWGUYFEYJVgURgkWxa8ZMfgWMvVvAGN8myGFf/ctk1kU/4VqQZHJLIr/Im1Y+KYmvm2GIpNZFP9FL8SygmHx5VUsCuMIvX5QZDKL4r+ofCmGTGZR/BoDV4bH/pc8FsXfgQ1OcUhjURglWBRGCRaFUUKK8n+jBhJTiN00gwAAAABJRU5ErkJggg==>
 
