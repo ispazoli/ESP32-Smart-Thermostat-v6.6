@@ -302,7 +302,7 @@ A single Google Apps Script is needed for Calendar and Sheets logging \[cite: ES
    * **ESP\_Thermostat\_Pro...ino:** Set your Tasmota's IP address in the remoteHost variable \[cite: ESP\_Thermostat\_Pro\_v6\_5\_1\_Calendar\_Backend.ino\].  
 3. **Upload SPIFFS Filesystem:**  
    * Create a data folder in the project sketch directory.  
-   * Place index.html \[cite: index.html (v6.6 \- Prognózis):index.html\], style.css \[cite: style.css\], and app.js \[cite: app.js (v6.6 \- Teljes, Javított):app.js\] into this folder.  
+   * Place index.html, style.css, and app.js into this folder.
    * Use the "ESP32 Sketch Data Upload" tool in the Arduino IDE Tools menu.  
 4. **Compile and Upload:** Compile and upload the main .ino sketch to your ESP32.
 
@@ -350,16 +350,16 @@ Open the thermostat's IP address (or http://esp32thermostat.local) in a browser.
 
 (See: Weather.png)
 
-* Uses the OpenWeatherMap 5 Day / 3 Hour Forecast API \[cite: sensors\_relay.cpp (v6.6 \- Teljes, Javított):sensors\_relay.cpp\].  
+* Uses the OpenWeatherMap 5 Day / 3 Hour Forecast API.  
 * You must enter your free OWM API key and city name.  
-* **New (v6.6):** The UI now displays **Precipitation (3h)** (pop \[cite: sensors\_relay.cpp (v6.6 \- Teljes, Javított):sensors\_relay.cpp\]) and the **3-Hour Forecast** temperature (temp\_3h \[cite: app.js (v6.6 \- Teljes, Javított):app.js\]).
+* **New (v6.6):** The UI now displays **Precipitation (3h)** and the **3-Hour Forecast** temperature.
 
 ### **Diagnostics Tab**
 
 (See: Diag.png)
 
 * The internal health dashboard, useful for debugging.  
-* Presence Ping: **(Live Data)** Shows how long ago the system last saw a monitored IP. Helps you test the Presence Detection setup \[cite: app.js (v6.6 \- Teljes, Javított):app.js\].  
+* Presence Ping: **(Live Data)** Shows how long ago the system last saw a monitored IP. Helps you test the Presence Detection setup.  
 * **Smart Learning Diagnostics:**  
   * Boiler Heat-Up Rate: The learned value in °C/hour.  
   * Building Efficiency: The learned heat-loss coefficient (lower is better).
