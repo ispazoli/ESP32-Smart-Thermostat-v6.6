@@ -73,7 +73,7 @@ bool          calendarMode = false;
 float         calendarTarget = NAN;
 unsigned long lastCalendarFetch = 0;
 // Tasmota / Remote Units
-String        remoteHost = "http://192.168.1.193";
+String        remoteHost = "your IP";
 String        relayOn = "/cm?cmnd=Power%20On";
 String        relayOff = "/cm?cmnd=Power%20Off";
 int           tasmotaFailureCount = 0; 
