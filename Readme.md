@@ -1,4 +1,81 @@
-[Magyar (HU)](#ESP32-Smart-Thermostat-Pro-(v6.6+)-hun) | [English (EN)](#ESP32-Smart-Thermostat-Pro-(v6.6+)-eng)
+[Magyar (HU)](#ESP32-Smart-Thermostat-Pro-(v6.6+)-hun)
+🧭 Tartalomjegyzék                                                  / Table of Contents
+
+📸 [Galéria](#Galéria)
+
+Választható Témák
+
+Funkcionális Képernyők
+
+🌟 Főbb Funkciók (v6.6)
+
+⚙️ Működés (Soros Monitor)
+
+🛠️ Hardverkövetelmények
+
+⚙️ Szoftveres Beüzemelés
+
+1. Lépés: Tasmota Relé/Szenzor Egység
+
+2. Lépés: Google Script (Kombinált)
+
+3. Lépés: ESP32 Termosztát Firmware
+
+4. Lépés: Első Indítás (WiFiManager)
+
+📖 Felhasználói Útmutató (Webes Felület)
+
+Főoldal (Thermostat)
+
+Ütemterv (Schedule)
+
+Rendszer & Statisztika (System)
+
+Időjárás (Weather)
+
+Diagnosztika (Diagnostics)
+
+
+
+📸 Gallery / In Action
+
+Selectable Themes
+
+Functional Screens
+
+🌟 Core Features (v6.6)
+
+⚙️ How it Works (Serial Log)
+
+🛠️ Hardware Requirements
+
+⚙️ Software Setup
+
+Step 1: Tasmota Relay/Sensor Unit
+
+Step 2: Google Script (Combined)
+
+Step 3: ESP32 Thermostat Firmware
+
+Step 4: First Boot (WiFiManager)
+
+📖 User Guide (Web Interface)
+
+Main Tab (Thermostat)
+
+Schedule Tab
+
+System & Stats Tab
+
+Weather Tab
+
+Diagnostics Tab
+
+⚖️ Licenc (License)
+
+🙏 Elismerések (Acknowledgements)
+
+ | [English (EN)](#ESP32-Smart-Thermostat-Pro-(v6.6+)-eng)
 # **ESP32 Smart Thermostat Pro (v6.6+) hun**
 
 Ez egy fejlett, hálózatra kapcsolt okostermosztát firmware, amely egy ESP32-es mikrokontrolleren fut. Egy különálló, Tasmota-alapú (ESP8266/ESP32) relé- és szenzoregységet vezérel HTTP-n keresztül.
