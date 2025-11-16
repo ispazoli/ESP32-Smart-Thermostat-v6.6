@@ -1,4 +1,4 @@
-[Magyar (HU)](https://www.google.com/search?q=%23magyar-verzi%C3%B3) | [English (EN)](https://www.google.com/search?q=%23english-version)
+[Magyar (HU)] | [English (EN)]
 
 # **ESP32 Smart Thermostat Pro (v6.6+)**
 
