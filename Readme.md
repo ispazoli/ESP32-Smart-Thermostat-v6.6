@@ -20,7 +20,8 @@ A webes felület három beépített témát tartalmaz \[cite: style.css\], valam
 
 | Apple Téma (Alapértelmezett) | Siemens Téma | Nest Téma |
 | :---- | :---- | :---- |
-| **images/thermostat1.png** | **![][image2]** | **![][image3]** |
+|<img width="1020" height="780" alt="teermostat1" src="https://github.com/user-attachments/assets/83ac3d53-a36e-40f8-843a-cc3353d85327" />| <img width="1022" height="800" alt="teermostat2" src="https://github.com/user-attachments/assets/344eb88e-f96f-4da7-8711-5b9a7ec783ab" />| <img width="1022" height="766" alt="teermostat3" src="https://github.com/user-attachments/assets/3e576277-c5b4-4e6c-b3c4-8b67352d86d8" />
+ |
 
 ### **Funkcionális Képernyők**
 
