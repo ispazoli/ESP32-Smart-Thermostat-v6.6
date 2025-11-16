@@ -8,7 +8,6 @@ A projekt célja egy kereskedelmi forgalomban kapható okostermosztátok tudás�
 
 Mindezt helyi hálózaton futtatva, de képes felhő-szolgáltatások (Google Naptár, Google Sheets) integrálására is.
 
-\<a id="magyar-verzió"\>\</a\>
 
 # **Magyar Verzió (HU)**
 
