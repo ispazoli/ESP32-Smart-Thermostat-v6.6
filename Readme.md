@@ -1,4 +1,4 @@
-[Magyar (HU)](#**ESP32-Smart-Thermostat-Pro-(v6.6+)-hun**) | [English (EN)](#**ESP32-Smart-Thermostat-Pro-(v6.6+)-eng**)
+[Magyar (HU)](#**ESP32-Smart-Thermostat-Pro-(v6.6+)-hun**) | [English (EN)](#**ESP32-Smart-Thermostat-Pro-(v6.6+)-eng**)ESP32 Smart Thermostat Pro (v6.6+) eng
 # **ESP32 Smart Thermostat Pro (v6.6+) hun**
 
 Ez egy fejlett, hálózatra kapcsolt okostermosztát firmware, amely egy ESP32-es mikrokontrolleren fut. Egy különálló, Tasmota-alapú (ESP8266/ESP32) relé- és szenzoregységet vezérel HTTP-n keresztül.
