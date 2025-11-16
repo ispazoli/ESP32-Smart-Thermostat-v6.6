@@ -207,7 +207,7 @@ The web interface features three built-in themes \[cite: style.css\] and provide
 
 | Weather (v6.6 Forecast) | System (Smart Features) | Diagnostics (Gauges) |
 | :---- | :---- | :---- |
-| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/cb833be8-d702-451c-8073-8811f34e2bfe" />| <img width="1167" height="992" alt="System" src="https://github.com/user-attachments/assets/f19ec2ac-8aa9-45f5-b543-f47e88395e6d" />| <img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/86111c70-8d16-4b0e-89be-57b25e43c1a5" />|
+|<img width="1175" height="971" alt="Weather" src="https://github.com/user-attachments/assets/cb833be8-d702-451c-8073-8811f34e2bfe" />|<img width="1167" height="992" alt="System" src="https://github.com/user-attachments/assets/5326d032-2026-47f4-b010-144e7201098b" />|<img width="1038" height="952" alt="Diag" src="https://github.com/user-attachments/assets/a73a12f6-ad06-4be2-a154-90b09c6fef70" />|
 
 ## **🌟 Core Features (v6.6)**
 
