@@ -87,12 +87,12 @@ A rendszer lelke egy ESP32, amely egy központi "agyként" funkcionál. Minden v
 A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rendszer működését. A termosztát 10 másodpercenként lekéri a Tasmota hőfokát, és közben futtatja a többi okos funkciót.
 
 // A Tasmota egység folyamatos lekérdezése  
-13:23:37.602 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
-13:23:47.574 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
+13:23:37.602 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1](http://10.0.0.1)/cm?cmnd=Status%208
+13:23:47.574 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1](http://10.0.0.1)/cm?cmnd=Status%208
 
 // A "Smart Learning" folyamatosan tanulja a ház hűlési sebességét  
 13:23:48.714 \-\> 🧠📉 \[LEARN\] COOLING: Net=-0.87°C/h, T\_Delta=6.61°C \-\> NewCoeff=0.1318, AvgCoeff=0.0942  
-13:23:57.609 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
+13:23:57.609 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1](http://10.0.0.1)/cm?cmnd=Status%208
 
 // 15 percenként elmenti az adatot a Google Sheets-be  
 13:24:01.623 \-\> 📝 \[LOG\] Saving 15-minute log...  
@@ -101,9 +101,9 @@ A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rends
 13:24:07.703 \-\> 📬 \[GSheet\] Response: OK: Data logged successfully.
 
 // Percenként fut a Jelenlét-érzékelés (PING)  
-13:24:07.703 \-\> Pinging... 192.168.1.  
-13:24:08.617 \-\> 🏠 \[PRESENCE\] Success\! 192.168.1.x is reachable.  
-13:24:08.617 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
+13:24:07.703 \-\> Pinging... 10.0.0.1  
+13:24:08.617 \-\> 🏠 \[PRESENCE\] Success\! 10.0.0.1 is reachable.  
+13:24:08.617 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1](http://10.0.0.1)/cm?cmnd=Status%208
 
 // ... (később, a v6.6-os kód futtatása)
 
@@ -112,7 +112,7 @@ A serial log.txt \[cite: serial log.txt\] tartalma tökéletesen mutatja a rends
 // Sikerült a 3 órás előrejelzés lekérése\!  
 16:51:02.417 \-\> 🌦️✅ Now: 12.2°C (Feels: 11.2°C), 3h Fcast: 10.9°C, Precip: 0%  
 16:51:02.464 \-\> 🌦️✅ overcast clouds (04n)  
-16:51:02.776 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
+16:51:02.776 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1](http://10.0.0.1)/cm?cmnd=Status%208
 
 // A tanulási algoritmus folyamatosan fut  
 16:51:03.050 \-\> 🧠📉 \[LEARN\] COOLING: Net=-4.05°C/h, T\_Delta=8.83°C \-\> NewCoeff=0.4585, AvgCoeff=0.1504
@@ -275,12 +275,12 @@ The system's "brain" is an ESP32, which runs all control logic, scheduling, and 
 The provided serial log.txt \[cite: serial log.txt\] perfectly demonstrates the system in action. The thermostat polls the Tasmota for temperature every 10 seconds while running its smart features in parallel.
 
 // Continuous polling of the Tasmota unit  
-13:23:37.602 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208  
-13:23:47.574 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
+13:23:37.602 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1](http://10.0.0.1)/cm?cmnd=Status%208  
+13:23:47.574 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1\](http://10.0.0.1)/cm?cmnd=Status%208
 
 // "Smart Learning" is constantly learning the building's heat loss  
 13:23:48.714 \-\> 🧠📉 \[LEARN\] COOLING: Net=-0.87°C/h, T\_Delta=6.61°C \-\> NewCoeff=0.1318, AvgCoeff=0.0942  
-13:23:57.609 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)x/cm?cmnd=Status%208
+13:23:57.609 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1](http://10.0.0.1)x/cm?cmnd=Status%208
 
 // Every 15 minutes, it logs data to Google Sheets  
 13:24:01.623 \-\> 📝 \[LOG\] Saving 15-minute log...  
@@ -289,9 +289,9 @@ The provided serial log.txt \[cite: serial log.txt\] perfectly demonstrates the 
 13:24:07.703 \-\> 📬 \[GSheet\] Response: OK: Data logged successfully.
 
 // Every minute, Presence Detection (PING) is running  
-13:24:07.703 \-\> Pinging... 192.168.1.  
-13:24:08.617 \-\> 🏠 \[PRESENCE\] Success\! 192.168.1. is reachable.  
-13:24:08.617 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
+13:24:07.703 \-\> Pinging... 10.0.0.1  
+13:24:08.617 \-\> 🏠 \[PRESENCE\] Success\! 10.0.0.1 is reachable.  
+13:24:08.617 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1](http://10.0.0.1)/cm?cmnd=Status%208
 
 // ... (later, running v6.6 code)
 
@@ -300,7 +300,7 @@ The provided serial log.txt \[cite: serial log.txt\] perfectly demonstrates the 
 // Success\! 3-hour forecast data was received\!  
 16:51:02.417 \-\> 🌦️✅ Now: 12.2°C (Feels: 11.2°C), 3h Fcast: 10.9°C, Precip: 0%  
 16:51:02.464 \-\> 🌦️✅ overcast clouds (04n)  
-16:51:02.776 \-\> 🌡️ \[TEMP\] GET \[http://192.168.1.\](http://192.168.1.)/cm?cmnd=Status%208
+16:51:02.776 \-\> 🌡️ \[TEMP\] GET \[http://10.0.0.1\](http://10.0.0.1)/cm?cmnd=Status%208
 
 // The learning algorithm continues to run  
 16:51:03.050 \-\> 🧠📉 \[LEARN\] COOLING: Net=-4.05°C/h, T\_Delta=8.83°C \-\> NewCoeff=0.4585, AvgCoeff=0.1504
